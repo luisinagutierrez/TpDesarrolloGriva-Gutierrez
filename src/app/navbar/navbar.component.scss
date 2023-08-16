@@ -1,34 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffa1f3;
-    color: black;
-    padding: 10px 20px;
-  
-    .logo a {
-      color: black;
-      text-decoration: none;
-      font-size: 24px;
-      font-family: 'Raleway', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&family=Montserrat:wght@300&family=Quicksand:wght@500&display=swap');
 
-    }
-    img{
-        height: 20px;
-        width: 20px;
-    }
-  
-    .nav-links {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-  
-      li a {
-        color: black;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-      }
-    }
-  }
-  
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px; 
+  font-weight: bold; 
+  background-color:#E91E63;
+  color: white;
+}
+
+.navBar {
+  display: flex;
+  justify-content:last baseline;
+  align-items: flex-end;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200px; 
+}
+
+
+.navBar-row {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200px; 
+}

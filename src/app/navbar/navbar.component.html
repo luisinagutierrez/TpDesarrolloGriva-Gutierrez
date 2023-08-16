@@ -1,17 +1,15 @@
-<nav class="navbar">
-    <div class="logo">
-      <a routerLink="/">Purse</a>
-    </div>
-    <ul class="nav-links">
-      <li><a routerLink="/Sale">Sale</a></li>
-      <li><a routerLink="/purse">Cartera</a></li>
-      <li><a routerLink="/wallet">Billetera</a></li>
-      <li><a routerLink="/fanny pack">Riñoneras</a></li>
-      <li><a routerLink="/Gift-Card">Gift-Card</a></li>
-      <li><a routerLink="/login">Registrate</a></li>
-      <li><a routerLink="/"><img src="/assets/img/cart.png" alt="Imagen" /></a></li>
-    </ul>
-  </nav>
+<mat-toolbar class= 'title'>
+  <span>My Application</span>      
+</mat-toolbar>
 
-  
-  
+<mat-toolbar class = 'navBar'>
+  <mat-toolbar-row>
+      <span classs = 'example-spacer'> </span>
+      <button mat-button>Descuentos</button>
+      <button mat-button>Carteras</button>
+      <button mat-button>Riñoneras</button>
+      <button mat-button>Billeteras</button>
+      <button mat-fab aria-label="Example icon button with a delete icon">
+          <mat-icon >shopping_cart</mat-icon>
+      </button>
+</mat-toolbar-row>
